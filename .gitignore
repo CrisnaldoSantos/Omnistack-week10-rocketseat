@@ -1,0 +1,5 @@
+#node_modules
+
+/backend/node_modules
+/mobile-app/node_modules
+/web/node_modules
