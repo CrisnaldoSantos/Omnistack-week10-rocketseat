@@ -1,3 +1,6 @@
+require('dotenv').config({
+    path: process.env.NODE_ENV === "test" ? ".env.test" : ".env"
+});
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -9,9 +12,10 @@ const app = express();
 const server = http.Server(app);
 setupWebsocket(server);
 
-mongoose.connect('mongodb+srv://crisnaldo:201310cr@testecluster-esz68.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect(process.env.MONGO_URL,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
+    useCreateIndex: true
 });
 app.use(cors());
 app.use(express.json());
