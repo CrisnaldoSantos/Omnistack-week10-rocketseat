@@ -25,6 +25,15 @@ A aplicação web é responsável por cadastrar desenvolvedores, importando dado
 
 A aplicação mobile é para a exibição no mapa dos desenvolvedores que tem afinidade com as tecnologias preenchidas no campo de busca e que estejam em um raio de 10km do usuário que faz a pesquisa. </p>
 
+<p>No momento que um dev é cadastrado na web e atende os requisitos de uma pesquisa mobile (localização em um raio de 10Km e tecnologia que trabalha), o dev é apresentado em tempo real na aplicação mobile.</p>
+
+### Tenologias:
+- NodeJS com Express
+- React JS
+- React Native
+- Socket IO
+- MongoDB
+
 ## Secreenshots:
 
 ### Aplicação Web:
@@ -32,12 +41,12 @@ A aplicação mobile é para a exibição no mapa dos desenvolvedores que tem af
 
 
 ### Aplicação Mobile:
-<img src="./github_assets/mobile01.png" alt ="mobile1" height="300"/>
+<img src="./github_assets/mobile01.png" alt ="mobile1" height="400"/>
 
-<img src="./github_assets/mobile02.png" alt ="mobile1" height="300"/>
+<img src="./github_assets/mobile02.png" alt ="mobile1" height="400"/>
 
-<img src="./github_assets/mobile03.png" alt ="mobile1" height="300"/>
-<img src="./github_assets/mobile04.png" alt ="mobile1" height="300"/>
+<img src="./github_assets/mobile03.png" alt ="mobile1" height="400"/>
+<img src="./github_assets/mobile04.png" alt ="mobile1" height="400"/>
 
 ## Licença:
 
